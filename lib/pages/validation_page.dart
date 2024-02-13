@@ -4,7 +4,6 @@ import 'package:brf_monitoramento_e_anomalias/pages/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter_svg/svg.dart';
-
 class ValidationPage extends StatefulWidget {
   const ValidationPage({super.key});
 
@@ -64,6 +63,7 @@ class _ValidationPageState extends State<ValidationPage> {
           actions: [
             TextButton(
               onPressed: () {
+
                 Navigator.pop(context);
                 Navigator.of(context).pushAndRemoveUntil(
                   PageRouteBuilder(

@@ -1,5 +1,5 @@
+import 'package:brasil_fields/brasil_fields.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -59,6 +59,9 @@ class _LoginPageState extends State<LoginPage> {
                     height: 4,
                   ),
                   TextFormField(
+                    inputFormatters: [
+                      PlacaVeiculoInputFormatter(),
+                    ],
                     decoration: const InputDecoration(
                       border: OutlineInputBorder(
                         borderSide: BorderSide(

@@ -1,4 +1,5 @@
 import 'package:brf_monitoramento_e_anomalias/pages/validation_page.dart';
+import 'package:brf_monitoramento_e_anomalias/shared/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,10 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      theme: BrfMonitoramentoEAnomaliasTheme.themeData,
       home: const ValidationPage(),
     );
   }

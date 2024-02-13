@@ -1,6 +1,6 @@
 import 'package:asyncstate/asyncstate.dart';
 import 'package:brf_monitoramento_e_anomalias/pages/validation_page.dart';
-import 'package:brf_monitoramento_e_anomalias/theme/theme.dart';
+import 'package:brf_monitoramento_e_anomalias/shared/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 class BrfMonitoramentoEAnomalias extends StatefulWidget {

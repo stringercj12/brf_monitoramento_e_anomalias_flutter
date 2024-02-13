@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 sealed class BrfMonitoramentoEAnomaliasTheme {
   static ThemeData themeData = ThemeData(
     useMaterial3: true,
+    // textTheme: GoogleFonts.novaMonoTextTheme(),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: Color.fromARGB(250, 255, 179, 0),
       foregroundColor: Colors.white,
